@@ -27,7 +27,7 @@ docker container exex -it assignment-2 /usr/share/nginx/html/index.html
 - Exit the above container, and now recreate the container by Volume using bind mounting
 -----------------------------------------------------------------------------------------
 
-exit
+docker container stop
  
 
 - Command to exec into the above container and replace the default index.html to a custom one, which says that â€œI am becoming a Docker Expertâ€‌ and it should be persisted for the next times.
